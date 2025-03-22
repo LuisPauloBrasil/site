@@ -178,7 +178,7 @@ textarea {
   line-height: 1.6; }
   @media only screen and (max-width: 37.5em) {
     .text-primary {
-      font-size: 2000rem; } }
+      font-size: 2rem; } }
 
 .d-none {
   display: none; }
@@ -702,3 +702,13 @@ textarea {
   to {
     opacity: 0;
     top: 27px; } }
+
+.sub-heading-primary{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+}
+
