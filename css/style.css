@@ -235,7 +235,7 @@ textarea {
     width: 92%; }
     @media only screen and (max-width: 37.5em) {
       .home-hero__content {
-        padding: 19rem 0 13rem 0;
+        padding: 19rem 100rem 13rem 0;
         margin: auto;
         position: static;
         transform: translate(0, 0); } }
@@ -702,13 +702,3 @@ textarea {
   to {
     opacity: 0;
     top: 27px; } }
-
-.sub-heading-primary{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items:center;
-  justify-content: center;
-}
-
