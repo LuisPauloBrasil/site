@@ -327,7 +327,7 @@ textarea {
           font-size: 1.7rem; } }
 
 .contact {
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8));
+  background: linear-gradient(to right,  #0062b9,  #0062b9);
   background-size: cover;
   background-position: center; }
   .contact__form-container {
@@ -721,3 +721,4 @@ textarea {
 ul {
   list-style-position: inside;
   }
+
