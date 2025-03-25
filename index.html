@@ -47,6 +47,19 @@
               <a href="./index.html#contact" class="header__link"> Contact </a>
             </li>
           </ul>
+          <!-- Menu mobile -->
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
         </div>
       </div>
       <div class="header__sm-menu">
@@ -73,7 +86,7 @@
     </header>
     <section id="home" class="home-hero">
       <!-- <img 
-        src='./assets/gif/jacke.gif'
+        src='./assets/gif/science.gif'
         class="projects__row-img"
       /> -->
       <div class="home-hero__content">
@@ -119,9 +132,9 @@
         <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main">About Me</span>
           <span class="heading-sec__sub">
-            My name is <strong>Luis</strong>. 
+            <br><p>My name is <strong>Luis</strong>. 
             I'm <strong>Engineer</strong> and <strong>Researcher</strong>, 
-            located in <strong>Rio de Janeiro</strong>, <strong>Brazil</strong>.
+            located in <strong>Rio de Janeiro</strong>, <strong>Brazil</strong>.</p></br>
           </span>
         </h2>
         <div class="about__content">
@@ -163,33 +176,49 @@
         <h2 class="heading heading-sec heading-sec__mb-bg">
           <span class="heading-sec__main">Projects</span>
           <span class="heading-sec__sub">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
+            <br><p>Here I share the projects I completed, articles and codes used.<br></p>
           </span>
         </h2>
         <div class="projects__content">
+          <!-- Analytic -->
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img 
-              src='./assets/gif/jacke.gif'
+              src='./assets/project/analytic.png'
               class="projects__row-img"
+              loading="lazy"
             />
-              <!-- <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              /> -->
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 1</h3>
+              <h3 class="projects__row-content-title">Analytical</h3>
               <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
+                Methodology for extracting wavenumber, phase velocity, slowness and 
+                group velocity for analytical models of plates and cylinders.
               </p>
               <a
-                href="./project-1.html"
+                href="./projectAnalytic.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+          <!-- Analytic -->
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img 
+                src='./assets/project/fem.png'
+                class="projects__row-img"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Finite Element Method</h3>
+              <p class="projects__row-content-desc">
+                Methodology for extracting wavenumber, phase velocity, slowness and 
+                group velocity for finite element method models of plates and cylinders.
+              </p>
+              <a
+                href="./projectFEM.html"
                 class="btn btn--med btn--theme dynamicBgClr"
                 target="_blank"
                 >Case Study</a
@@ -198,26 +227,19 @@
           </div>
           <div class="projects__row">
             <div class="projects__row-img-cont">
-              <!-- <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              /> -->
               <img 
-                src='./assets/gif/jacke.gif'
+                src='./assets/project/safe.png'
                 class="projects__row-img"
               />
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 2</h3>
+              <h3 class="projects__row-content-title">Semi-Analytical</h3>
               <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
+                Methodology for extracting wavenumber, phase velocity, slowness and 
+                group velocity for semi-analytical finite element models of plates and cylinders.
               </p>
               <a
-                href="./project-2.html"
+                href="./projectSAFEM.html"
                 class="btn btn--med btn--theme dynamicBgClr"
                 target="_blank"
                 >Case Study</a
@@ -226,26 +248,19 @@
           </div>
           <div class="projects__row">
             <div class="projects__row-img-cont">
-              <!-- <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              /> -->
               <img 
-                src='./assets/gif/jacke.gif'
+                src='./assets/project/pinn.png'
                 class="projects__row-img"
               />
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 3</h3>
+              <h3 class="projects__row-content-title">Physics-Informed Neural Networks</h3>
               <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
+                Methodology for simulating wave propagation in plates and cylinders 
+                using Physics-informed neural networks.
               </p>
               <a
-                href="./project-3.html"
+                href="./projectPINN.html"
                 class="btn btn--med btn--theme dynamicBgClr"
                 target="_blank"
                 >Case Study</a
@@ -259,8 +274,13 @@
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main heading-sec__main--lt">Codes </span>
+          <br>
           <span class="heading-sec__sub heading-sec__sub--lt">
-            Codes here.
+            <a
+            href="https://github.com/LuisPauloBrasil/"
+            class="btn btn--bg"
+            target="_blank"
+            >github</a>
           </span>
         </h2>
       </div>
@@ -273,7 +293,6 @@
             <br>
             <p>email: luis.souza@ouronova.com</p><br>
             <p>linkedin: https://www.linkedin.com/in/luis-brasil/</p><br>
-            <p>github: https://github.com/LuisPauloBrasil/</p><br>
           </span>
         </h2>
       </div>
