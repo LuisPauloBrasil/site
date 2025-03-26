@@ -246,7 +246,9 @@ textarea {
     margin: 3rem auto 0 auto;
     max-width: 80rem; }
   .home-hero__cta {
-    margin-top: 5rem;
+    margin-top: 11rem;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center; }
 
 .about {
@@ -279,6 +281,11 @@ textarea {
         margin: 0 3px; }
       .about__content-details-para:last-child {
         margin-bottom: 4rem; }
+      .about__content-main {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+           }
 
 .projects__row {
   display: grid;
