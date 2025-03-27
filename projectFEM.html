@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Case Study of Project 1</title>
+    <title>Finite Element Method</title>
     <meta name="description" content="Case study page of Project" />
 
     <link rel="stylesheet" href="css/style.css" />
-
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,7 +23,6 @@
           <div class="header__logo-img-cont">
             <img
               src="./assets/png/luisbrasil.png"
-              alt="Ram Maheshwari Logo Image"
               class="header__logo-img"
             />
           </div>
@@ -32,19 +31,16 @@
         <div class="header__main">
           <ul class="header__links">
             <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
+              <a href="./projectFEM.html#home_FEM" class="header__link"> Home </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link"> About </a>
+              <a href="./projectFEM.html#paper_FEM" class="header__link"> Paper </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link"> Projects </a>
+              <a href="./projectFEM.html#code_FEM" class="header__link"> Code </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#codes" class="header__link"> Codes </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contact </a>
+              <a href="./projectFEM.html#contact_FEM" class="header__link"> Contact </a>
             </li>
           </ul>
           <div class="header__main-ham-menu-cont">
@@ -65,103 +61,95 @@
         <div class="header__sm-menu-content">
           <ul class="header__sm-menu-links">
             <li class="header__sm-menu-link">
-              <a href="./index.html"> Home </a>
+              <a href="./projectFEM.html#home_FEM"> Home </a>
             </li>
 
             <li class="header__sm-menu-link">
-              <a href="./index.html#about"> About </a>
+              <a href="./projectFEM.html#paper_FEM"> Paper </a>
             </li>
 
             <li class="header__sm-menu-link">
-              <a href="./index.html#projects"> Projects </a>
+              <a href="./projectFEM.html#code_FEM"> Codes </a>
             </li>
 
             <li class="header__sm-menu-link">
-              <a href="./index.html#contact"> Contact </a>
+              <a href="./index.html#contact_FEM"> Contact </a>
             </li>
           </ul>
         </div>
       </div>
     </header>
-    <section class="project-cs-hero">
-      <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Project 1</h1>
+    <section id="home_FEM" class="project-cs-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Finite Element Method</h1>
         <div class="project-cs-hero__info">
           <p class="text-primary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            in numquam incidunt earum quaerat cum fuga, atque similique natus
-            nobis sit.
+            Methodology for extracting wavenumber, phase velocity, slowness and 
+            group velocity for finite element method models of plates and cylinders.
           </p>
         </div>
-        <div class="project-cs-hero__cta">
-          <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
+        <div class="home-hero__cta">
+          <a href="https://www.youtube.com/watch?v=dZ_6_aAMbFc" class="btn btn--bg" target="_blank">video</a>
+          <a href="./projectFEM.html#paper_FEM" class="btn btn--bg">Paper</a>
+          <a href="./projectFEM.html#code_FEM" class="btn btn--bg">Code</a>
+        </div>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="paper_FEM" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Paper</span>
+        </h2>
+        <div class="projects__content">
+          <!-- Analytic -->
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img 
+              src='./assets/project/analytic.png'
+              class="projects__row-img"
+              loading="lazy"
+            />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Finite Element Method</h3>
+              <p class="projects__row-content-desc">
+                Methodology for extracting wavenumber, phase velocity, slowness and 
+                group velocity for analytical models of plates and cylinders.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <section class="project-details">
+    <section id="code_FEM" class="contact sec-pad dynamicBg">
       <div class="main-container">
-        <div class="project-details__content">
-          <div class="project-details__showcase-img-cont">
-            <img
-              src="./assets/jpeg/project-mockup-example.jpeg"
-              alt="Project Image"
-              class="project-details__showcase-img"
-            />
-          </div>
-          <div class="project-details__content-main">
-            <div class="project-details__desc">
-              <h3 class="project-details__content-title">Project Overview</h3>
-              <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Neque alias tenetur minus quaerat
-                aliquid, aut provident blanditiis, deleniti aspernatur ipsam
-                eaque veniam voluptatem corporis vitae mollitia laborum corrupti
-                ullam rem?
-              </p>
-              <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem?
-              </p>
-            </div>
-            <div class="project-details__tools-used">
-              <h3 class="project-details__content-title">Tools Used</h3>
-              <div class="skills">
-                <div class="skills__skill">HTML</div>
-                <div class="skills__skill">CSS</div>
-                <div class="skills__skill">JavaScript</div>
-                <div class="skills__skill">React</div>
-                <div class="skills__skill">SASS</div>
-                <div class="skills__skill">GIT</div>
-                <div class="skills__skill">Shopify</div>
-                <div class="skills__skill">Wordpress</div>
-                <div class="skills__skill">Google ADS</div>
-                <div class="skills__skill">Facebook Ads</div>
-                <div class="skills__skill">Android</div>
-                <div class="skills__skill">IOS</div>
-              </div>
-            </div>
-            <div class="project-details__links">
-              <h3 class="project-details__content-title">See Live</h3>
-              <a
-                href="#"
-                class="btn btn--med btn--theme project-details__links-btn"
-                target="_blank"
-                >Live Link</a
-              >
-              <a
-                href="#"
-                class="btn btn--med btn--theme-inv project-details__links-btn"
-                target="_blank"
-                >Code Link</a
-              >
-            </div>
-          </div>
-        </div>
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Codes </span>
+          <br>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            <a
+            href="https://github.com/LuisPauloBrasil/"
+            class="btn btn--bg"
+            target="_blank"
+            >github</a>
+          </span>
+        </h2>
+      </div>
+    </section>
+    <section id="contact_FEM" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="eading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Contact </span>
+          <span class="heading-sec__sub">
+            <br>
+            <p>email: luis.souza@ouronova.com</p><br>
+            <p>linkedin: https://www.linkedin.com/in/luis-brasil/</p><br>
+          </span>
+        </h2>
       </div>
     </section>
     <footer class="main-footer">
@@ -178,8 +166,7 @@
         <div class="main-footer__lower">
           &copy; Copyright 2021. Adapted from 
           <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
-            >Ram Maheshwari</a
-          >
+            >Ram Maheshwari</a>
         </div>
       </div>
     </footer>
