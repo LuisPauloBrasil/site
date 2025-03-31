@@ -314,7 +314,9 @@ textarea {
   .projects__row-img {
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    /* width: 80%; */
+    max-width: 50rem; 
+    max-height: 50rem;
     display: block;
     object-fit: cover; }
   .projects__row-content {
